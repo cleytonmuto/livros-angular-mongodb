@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Livro } from '../livro';
 
-const baseURL = 'http://localhost:3030/livros';
+const baseURL = 'http://fullstackers:3030/livros';
 
 export interface LivroMongo {
   _id: string;

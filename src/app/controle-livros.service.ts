@@ -13,7 +13,7 @@ export interface LivroMongo {
   providedIn: 'root',
 })
 export class ControleLivrosService {
-  baseURL = 'http://localhost:3030/livros';
+  baseURL = 'http://fullstackers:3030/livros';
 
   async obterLivros(): Promise<LivroMongo[]> {
     const response = await fetch(this.baseURL);
